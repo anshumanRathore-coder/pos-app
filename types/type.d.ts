@@ -40,3 +40,10 @@ declare interface signupFormType {
   phone: string;
   password: string;
 }
+
+declare interface homeCardType {
+  title: string;
+  bgColor: string;
+  isPro: boolean;
+  icon: string;
+}

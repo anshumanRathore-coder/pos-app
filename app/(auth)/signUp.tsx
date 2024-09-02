@@ -21,7 +21,6 @@ export default function signUp() {
       headerTitle: "Sign up",
       headerTintColor: "blue",
       headerTitleAlign: "center",
-      headerTitleFont: "bold",
       headerTitleStyle: {
         fontWeight: 600,
       },

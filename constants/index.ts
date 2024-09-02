@@ -111,3 +111,42 @@ export const otpServices = [
     img: phone,
   },
 ];
+
+export const homePage = [
+  {
+    title: "Add custom sale",
+    bgColor: "bg-blue-400",
+    isPro: false,
+    icon: "calendar-outline",
+  },
+  {
+    title: "Apply discount",
+    bgColor: "bg-white",
+    isPro: false,
+    icon: "color-wand-outline",
+  },
+  {
+    title: "Ship all items",
+    bgColor: "bg-blue-400",
+    isPro: true,
+    icon: "add-outline",
+  },
+  {
+    title: "Email to customer",
+    bgColor: "bg-white",
+    isPro: false,
+    icon: "send-outline",
+  },
+  {
+    title: "Save as draft",
+    bgColor: "bg-white",
+    isPro: true,
+    icon: "reader-outline",
+  },
+  {
+    title: "Add more",
+    bgColor: "bg-white",
+    isPro: false,
+    icon: "add-outline",
+  },
+];
