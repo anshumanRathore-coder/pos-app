@@ -5,8 +5,8 @@ import { Redirect } from "expo-router";
 
 export default function index() {
   return (
-    <SafeAreaView>
-      <Redirect href="/(root)/home" />
+    <SafeAreaView className="bg-black">
+      <Redirect href="/(auth)/welcome" />
     </SafeAreaView>
   );
 }

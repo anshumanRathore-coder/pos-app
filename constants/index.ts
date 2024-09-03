@@ -115,38 +115,65 @@ export const otpServices = [
 export const homePage = [
   {
     title: "Add custom sale",
-    bgColor: "bg-blue-400",
+    bgColor: "#b0c4de",
     isPro: false,
     icon: "calendar-outline",
   },
   {
     title: "Apply discount",
-    bgColor: "bg-white",
+    bgColor: "#9400d3",
     isPro: false,
     icon: "color-wand-outline",
   },
   {
     title: "Ship all items",
-    bgColor: "bg-blue-400",
+    bgColor: "#8fbc8f",
     isPro: true,
     icon: "add-outline",
   },
   {
     title: "Email to customer",
-    bgColor: "bg-white",
+    bgColor: "#ff8c00",
     isPro: false,
     icon: "send-outline",
   },
   {
     title: "Save as draft",
-    bgColor: "bg-white",
+    bgColor: "#bc8f8f",
     isPro: true,
     icon: "reader-outline",
   },
   {
     title: "Add more",
-    bgColor: "bg-white",
+    bgColor: "#696969",
     isPro: false,
     icon: "add-outline",
+  },
+];
+
+export const moreOptions = [
+  {
+    name: "Analytics",
+    icon: "analytics-outline",
+  },
+  {
+    name: "Register",
+    icon: "bookmarks-outline",
+  },
+  {
+    name: "Staff",
+    icon: "people-outline",
+  },
+  {
+    name: "Setting",
+    icon: "settings-outline",
+  },
+  {
+    name: "Support",
+    icon: "build-outline",
+  },
+  {
+    name: "Connectivity",
+    icon: "alert-circle-outline",
   },
 ];

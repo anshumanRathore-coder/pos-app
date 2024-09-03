@@ -12,7 +12,7 @@ export default function welcome() {
   const swiperRef = useRef<Swiper>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <SafeAreaView className="mt-5 flex h-full  justify-center items-center ">
+    <SafeAreaView className="flex h-full bg-black  justify-center items-center ">
       <View className="flex flex-row justify-center items-center gap-5">
         <Image source={icons.logo} className="w-10 h-10 rounded-xl" />
         <Text className="text-xl text-blue-500 font-bold">Point of sale</Text>
@@ -36,7 +36,7 @@ export default function welcome() {
               resizeMode="contain"
             />
             <View className="flex flex-row items-center justify-center w-full mt-10">
-              <Text className="text-black text-3xl font-bold mx-10 text-center">
+              <Text className="text-white text-3xl font-bold mx-10 text-center">
                 {item.heading}
               </Text>
             </View>
