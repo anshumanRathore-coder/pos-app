@@ -33,6 +33,8 @@ import temp from "@/assets/icons/temp.png";
 import wallet from "@/assets/icons/wallet.png";
 import whatsapp from "@/assets/icons/whatsapp.png";
 import logo from "@/assets/icons/logo.png";
+import pizza from "@/assets/images/pizzas.png";
+import burger from "@/assets/images/burger.png";
 export const images = {
   successTransaction,
   alfaBank,
@@ -46,6 +48,8 @@ export const images = {
   onboarding3,
   profile,
   loginWelcome,
+  pizza,
+  burger,
 };
 
 export const icons = {
@@ -175,5 +179,53 @@ export const moreOptions = [
   {
     name: "Connectivity",
     icon: "alert-circle-outline",
+  },
+];
+
+export const orderDummyData = [
+  {
+    customer_name: "Anshuman",
+    customer_ID: "123",
+    customer_address: "Jaipur kardhani",
+    order_id: "a12sd",
+    order_name: "Pizza",
+    order_date: "10 sep 2024",
+    image_url: pizza,
+  },
+  {
+    customer_name: "Sanjay",
+    customer_ID: "123232",
+    customer_address: "Jaipur gopalpura",
+    order_id: "32342",
+    order_name: "Burger",
+    order_date: "12 sep 2024",
+    image_url: burger,
+  },
+  {
+    customer_name: "Sanjay",
+    customer_ID: "123232",
+    customer_address: "Jaipur gopalpura",
+    order_id: "32342",
+    order_name: "Burger",
+    order_date: "12 sep 2024",
+    image_url: pizza,
+  },
+  {
+    customer_name: "Sanjay",
+    customer_ID: "123232",
+    customer_address: "Jaipur gopalpura",
+    order_id: "32342",
+    order_name: "Burger",
+    order_date: "12 sep 2024",
+    image_url: burger,
+  },
+  {
+    customer_name: "Sanjay",
+    customer_ID: "123232",
+    customer_address: "Jaipur gopalpura",
+    order_id: "32342",
+    order_name: "Burger",
+    order_date: "12 sep 2024",
+    image_url: burger,
   },
 ];

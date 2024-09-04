@@ -4,6 +4,9 @@ import { useNavigation } from "expo-router";
 import { AntDesign, Ionicons, MaterialIcons } from "@expo/vector-icons";
 import GradientBackground from "@/components/GradientBackground";
 import CustomButton from "@/components/CustomButton";
+import { orderDummyData } from "@/constants";
+import { FlatList } from "react-native-gesture-handler";
+import { OrderCard } from "@/components/OrderCard";
 
 export default function order() {
   const navigation = useNavigation();
@@ -24,6 +27,18 @@ export default function order() {
       },
     });
   }, []);
+  if (orderDummyData) {
+    return (
+      <GradientBackground colors={["#1E293B", "#7C3AED"]}>
+        <FlatList
+          data={orderDummyData}
+          keyExtractor={(item) => item.order_id}
+          renderItem={({ item }) => <OrderCard order={item} />}
+          contentContainerStyle={{ paddingBottom: 20 }}
+        />
+      </GradientBackground>
+    );
+  }
   return (
     <>
       <GradientBackground colors={["#1E293B", "#7C3AED"]}>
